@@ -1,0 +1,5 @@
+php artisan migrate
+git status
+git init
+git add -a
+git add -A
