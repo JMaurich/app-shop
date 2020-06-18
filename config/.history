@@ -1,5 +1,26 @@
-php artisan migrate
-git status
-git init
 git add -a
+git commit -m "Base project"
+git remote add origin https://github.com/JMaurich/app-shop
+cd\
+cd ..
+cd laragon
+cd \
+cd wamp
+cd www
+cd app-shop
+git config --global user.name "Jose Luis Maurich"
+git config --global user.email --list
+git config --global user.email "JMaurich@gmail.com"
+git config --global --list
+php artisan serve
+php artisan make:factory ProductFactory
+dir
+php artisan migrate --seed
+php artisan migrate:fresh --seed
+php artisan migrate
+git commit -A
 git add -A
+git push origin master
+git init
+git status
+git add .
